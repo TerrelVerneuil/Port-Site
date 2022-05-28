@@ -5,7 +5,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-color: white;
+    background-color: #5CDB95;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -86,7 +86,7 @@
   width: 100%;
   height: 40vh;
   padding: 0 2rem;
-  background-color: rgb(204, 204, 204);
+  background-color: #8EE4AF;
 }
 
 .contact-section-header > h2 {
