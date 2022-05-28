@@ -5,7 +5,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/38123.webp);
+    background-color: navy;
     background-position: center;
     background-size: cover;
     position: relative;
