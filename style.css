@@ -49,7 +49,7 @@
     top: 0;
     left: 0;
     width: auto;
-    background: var(--main-red);
+    background-color: black;
     z-index: 10;
 }
 
