@@ -75,7 +75,7 @@
 }
 
 .nav-list a:hover {
-    background: #EDF5E1;
+    background: rgba(204, 204, 204);
 }
 .contact-section {
   display: flex;
