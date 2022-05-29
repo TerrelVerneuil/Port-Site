@@ -10,6 +10,7 @@
     background-size: cover;
     position: relative;
 }
+
 .content {
     padding:auto;
     width:auto;
@@ -90,6 +91,7 @@
 }
 
 .contact-section-header > h2 {
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/Thank-You-5-29-2022.gif) ;
   font-size: 6rem;
 }
 
