@@ -1,150 +1,46 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: url(Images/56c6237b64fc046316e63ce0978f918c.gif);
-    
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-.introcell{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  flex-direction: row-reverse;
-}
-.circle{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background: linear-gradient(45deg,rgb(138,25,190),rgb(152,13,78));
-    z-index: 10;
-    top: 0;
-    left: 0;
-    position: absolute;
-    transition: 0.4s ease-in-out;
-    animation: animate 0.4s ease-in-out infinite;
-    box-shadow: 0px 0px 50px 10px red;
-}
-@keyframes animate {
-  100%{
-    filter: hue-rotate(360deg );
-  }
-}
-.content {
-    padding:auto;
-    width:auto;
-    position:relative;
-    background:  rgba(204, 204, 204)
-    background: rgba(204, 204, 204, 0.5);
-}
-.white-box {
-    position: absolute;
-    background-color: #FFFFFF;
-    color: black;
-    width: auto;
-    height: auto;
-    padding: auto;
-}
-.welcome-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: auto;
-    background-color: #FFFFFF;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/a24cb568fa40046f8562dbc45cea8506.gif) ;
-}
-.welcome-section > p {
-    font-size: 2rem;
-    font-weight: normal;
-    font-style: oblique;
-    color: var(--main-white);
-}
-
-.nav {
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: auto;
-    background-color: rgba(204, 204, 204);
-    z-index: 10;
-}
-
-.nav-list {
-    display: flex;
-    margin-right: 2rem;
-}
-
-@media (max-width: 25.75em) {
-    .nav {
-        justify-content: center;
-    }
-
-    .nav-list {
-        margin: 0 1rem;
-    }
-}
-
-.nav-list a {
-    display: block;
-    font-size: 1.2rem;
-    padding: 1rem;
-}
-
-.nav-list a:hover {
-    background: var(--main-blue);
-}
-.contact-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 40vh;
-  padding: 0 2rem;
-  background-color: #282828;
-}
-
-.contact-section-header > h2 {
-  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/Thank-You-5-29-2022.gif) ;
-  font-size: 6rem;
-}
-
-@media (max-width: 28.75em) {
-  .contact-section-header > h2 {
-    font-size: 4rem;
-  }
-}
-
-.contact-section-header > p {
-  font-style: italic;
-}
-
-.contact-links {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 980px;
-  margin-top: 4rem;
-  flex-wrap: wrap;
-}
-
-.contact-details {
-  font-size: 2.4rem;
-  text-shadow: 2px 2px 1px #1f1f1f;
-  transition: transform 0.3s ease-out;
-}
-
-.contact-details:hover {
-  transform: translateY(8px);
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content = "with=device-width, initial-scale=1.0">
+        <title>Terrel's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        <section id="welcome-section" class="welcome-section">
+            <h1 style="color: #FFFFFF;">
+                Welcome To Terrel's Portfolio</h1>
+            <p style="color: #FFFFFF;">Student @ Gettysburg College</p>
+        </section>
+        <section class="header">
+            <nav id="navbar" class="nav">
+                <div class="content">
+                    <a href="#welcome-section">About</a>
+                    <a href="#contact">Contact</a>
+                    <a href= "https://terrelverneuil.github.io/Port-Site/ProjectPage">Projects</a>  
+                </div>
+            </nav>
+        </section>
+        <section id="contact" class="contact-section">
+  <div class="contact-section-header">
+      <h2></h2>
+  </div>
+  <div class="contact-links">
+    <a
+      href="https://www.linkedin.com/in/terrel-verneuil-63b706167/"
+      target="_blank"
+      class="btn contact-details"
+      >
+        <i class="fa fa-linkedin-square" style="font-size:48px"; color:#0072b1 ></i></a>
+    <a
+      id="profile-link"
+      href="https://github.com/TerrelVerneuil/"
+      target="_blank"
+      class="btn contact-details"
+      >
+        <i class="fa fa-github" style="font-size:48px"; color:"black"></i>
+        </a>
+    </div>  
+    </body>
+</html>
