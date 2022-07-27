@@ -10,7 +10,24 @@
     background-size: cover;
     position: relative;
 }
-
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: linear-gradient(45deg,rgb(138,25,190),rgb(152,13,78))
+    position:absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transition: 0.4s ease-in-out;
+    animation: animate 0.4s ease-in-out infinite;
+    box-shadow: 0px 0px 50px 10px red;
+}
+@@keyframes animate {
+  100%{
+    filter: hue-rotate(360deg );
+  }
+}
 .content {
     padding:auto;
     width:auto;
