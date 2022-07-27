@@ -23,7 +23,7 @@
     animation: animate 0.4s ease-in-out infinite;
     box-shadow: 0px 0px 50px 10px red;
 }
-@@keyframes animate {
+@keyframes animate {
   100%{
     filter: hue-rotate(360deg );
   }
@@ -57,7 +57,7 @@
     font-size: 2rem;
     font-weight: normal;
     font-style: oblique;
-    color: var(--main-white);
+    color: Images/56c6237b64fc046316e63ce0978f918c.gif;
 }
 
 .nav {
