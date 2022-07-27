@@ -6,10 +6,10 @@
     min-height: 100vh;
     width: 100%;
     background-image: url(Images/56c6237b64fc046316e63ce0978f918c.gif);
-    
     background-position: center;
     background-size: cover;
     position: relative;
+    cursor: none;
 }
 .introcell{
   display: flex;
@@ -18,18 +18,16 @@
   position: relative;
   flex-direction: row-reverse;
 }
-.circle{
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background: linear-gradient(45deg,rgb(138,25,190),rgb(152,13,78));
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    transition: 0.4s ease-in-out;
-    animation: animate 0.4s ease-in-out infinite;
-    box-shadow: 0px 0px 50px 10px red;
+.cursor{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  transition: 0.1s;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
 }
 @keyframes animate {
   100%{
