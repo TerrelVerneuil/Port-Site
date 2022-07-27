@@ -5,7 +5,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(Images/56c6237b64fc046316e63ce0978f918c.gif);
+    background-image: url(Images/4224720.webp);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -21,7 +21,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  border: 2px solid #000;
+  border: 2px solid #FFFFFF;
   box-sizing: border-box;
   transition: 0.1s;
   transform: translate(-50%, -50%);
